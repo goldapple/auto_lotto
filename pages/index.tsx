@@ -55,7 +55,7 @@ export default function Home() {
       if (12 - _.union(winNumber.number, tmp.number).length >= goal) {
         setMyNumber(tmp);
         dispatch(save_my_number(tmp));
-        console.log(`${whileCount}번째에서 찾았다! ${count}개 겹침`);
+        alert(`${whileCount}번째에서 찾았다! ${count}개 겹침`);
         return;
       }
     }

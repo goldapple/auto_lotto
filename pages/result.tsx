@@ -5,7 +5,6 @@ import { useSelector } from 'react-redux';
 import styled from 'styled-components';
 import NumberBox from '../component/NumberBox';
 import SEO from '../component/SEO';
-import Title from '../component/Title';
 
 type LottoNumber = {
   number: number[];

@@ -18,7 +18,10 @@
     "semi": ["error", "never"],
     "import/no-anonymous-default-export": 0,
     "object-shorthand": "error",
-    "padding-line-between-statements": ["error", { "blankLine": "always", "prev": "*", "next": "return" }],
+    "padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "*", "next": "return" }
+    ],
     "@typescript-eslint/no-redeclare": 0
   }
 }
